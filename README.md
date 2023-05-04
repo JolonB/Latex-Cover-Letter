@@ -19,6 +19,19 @@ lualatex sample.tex
 ```
 
 This will require having the Calibri font install on your machine.
+You can get it by running the following commands:
+
+```shell
+sudo apt install -y ttf-mscorefonts-installer
+mkdir ~/.fonts
+wget -qO- http://plasmasturm.org/code/vistafonts-installer/vistafonts-installer | bash
+rm PowerPointViewer.exe
+```
+<!--
+The installer can also be wget'd from the Internet Archive using the following link: https://web.archive.org/web/20221210114820if_/http://plasmasturm.org/code/vistafonts-installer/vistafonts-installer.
+If the PowerPointViewer.exe file has been deleted, it can also be downloaded from the Internet Archive: https://web.archive.org/web/20230504111911/https://cytranet.dl.sourceforge.net/project/mscorefonts2/cabs/PowerPointViewer.exe
+ -->
+
 If you don't want to use that font, you can change the font by editing the template file.
 
 ## Commands
